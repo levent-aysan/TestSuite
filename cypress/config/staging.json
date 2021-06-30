@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://www.staging.fruitionconsult.com",
+  "env": {
+    "environment": "staging"
+  }
+}

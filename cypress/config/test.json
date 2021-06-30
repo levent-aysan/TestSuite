@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://www.test.fruitionconsult.com",
+  "env": {
+    "environment": "test"
+  }
+}

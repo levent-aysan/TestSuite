@@ -1,0 +1,33 @@
+{
+  "name": "fruition-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chai-colors": "^1.0.1",
+    "cypress": "7.6.0",
+    "eslint-plugin-cypress": "2.11.3",
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7",
+    "cypress-xpath": "^1.6.2"
+  },
+  "scripts": {
+    "cy:test": "cypress open --env fileConfig=test",
+    "cy:staging": "cypress open --env fileConfig=staging",
+    "cy:production": "cypress open --env fileConfig=production",
+    "cypress:test": "cypress run --env fileConfig=test",
+    "cypress:staging": "cypress run --env fileConfig=staging",
+    "cypress:production": "cypress run --env fileConfig=production"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
